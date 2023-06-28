@@ -37,6 +37,7 @@ with open(census_csv, encoding="utf8") as csvfile:
 
 # Zip lists together
 # used https://realpython.com/python-zip-function/ as reference since we didn't touch on this in class
+# this basically just links all the lists into one variable
 zipped_census = zip(place,population,income,poverty_count,poverty_rate,county,state)
 
 # Set variable for output file
