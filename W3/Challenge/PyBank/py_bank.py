@@ -3,7 +3,7 @@ import os
 
 # grab csv path and output path
 budget_path = os.path.join('Resources/budget_data.csv')
-output_path = os.path.join('Results/budget_analysis.txt')
+output_path = os.path.join('analysis/budget_analysis.txt')
 # variables to store desired info
 # profit refers to both profit and loss, used just profit for readability
 month_total = 0

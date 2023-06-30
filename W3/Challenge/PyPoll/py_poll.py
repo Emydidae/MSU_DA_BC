@@ -3,7 +3,7 @@ import os
 
 # grab csv path and output path
 budget_path = os.path.join('Resources/election_data.csv')
-output_path = os.path.join('Results/election_results.txt')
+output_path = os.path.join('analysis/election_results.txt')
 # variables to store desired info
 vote_total = 0
 candidates = []
